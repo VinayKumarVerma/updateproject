@@ -826,7 +826,7 @@ footer {
 
 .track-progress li {
     line-height: 40px;
-    height: 40px;
+    height: auto;
     background-color: #eaeaea;
 }
 .devops-stages {
@@ -990,7 +990,12 @@ footer {
 	background-color: #fdd439;
 	border-color: #fdd439;
 }
-
+.navigationTextActive-org {
+    color: #ff984f;
+}
+.subnavMainTabActive-org{
+    border-right:7px solid #ff984f;
+}
 .organizationTemplate  .navigationTabActive-org {
 	background-color:#ff984f;
 }
